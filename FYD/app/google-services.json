@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "120831638639",
+    "project_id": "find-your-dorm",
+    "storage_bucket": "find-your-dorm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:120831638639:android:be6adf68bc9e316c20e19a",
+        "android_client_info": {
+          "package_name": "com.example.fyd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "120831638639-el5a4nvd8qibbm0q3ajb8ch2162kp9il.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6ROSlISsXYLkpamryoqFDBGRDaEE-Ees"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "120831638639-el5a4nvd8qibbm0q3ajb8ch2162kp9il.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

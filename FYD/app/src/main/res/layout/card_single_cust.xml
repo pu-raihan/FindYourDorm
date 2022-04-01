@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#034F51">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="15dp"
+        android:layout_margin="15dp"
+        app:cardBackgroundColor="#023"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:layout_marginVertical="30dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/ic_home_black_24dp"
+            android:contentDescription="@string/app_name" />
+
+        <LinearLayout
+            android:id="@+id/l1"
+            android:layout_width="111dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:layout_marginEnd="85dp"
+            android:paddingTop="15dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical"
+            android:layout_marginRight="80dp">
+
+
+            <TextView
+                android:id="@+id/tp1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/place"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tp2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:linksClickable="true"
+                android:text="Size(sqrft) :"
+                android:textColor="#fff" />
+
+            <TextView
+                android:id="@+id/tp3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:focusable="true"
+                android:linksClickable="true"
+                android:text="Rooms :"
+                android:textColor="#fff" />
+            <TextView
+                android:id="@+id/tp4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:focusable="true"
+                android:linksClickable="true"
+                android:text="Rent :"
+                android:textColor="#fff" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout1"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:layout_weight="1"
+            android:paddingTop="15dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/place"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/place"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/size"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:linksClickable="true"
+                android:text="Size :"
+                android:textColor="#fff" />
+
+            <TextView
+                android:id="@+id/bedrooms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:focusable="true"
+                android:linksClickable="true"
+                android:text="Rooms :"
+                android:textColor="#fff" />
+            <TextView
+                android:id="@+id/rent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:focusable="true"
+                android:linksClickable="true"
+                android:text="Rent :"
+                android:textColor="#fff" />
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="110dp"
+            android:layout_height="30dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="210dp"
+            android:ems="10"
+            android:gravity="center_vertical"
+            android:textColor="#00FF0C"
+            android:text=" Status"
+            android:layout_marginHorizontal="150dp" />
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

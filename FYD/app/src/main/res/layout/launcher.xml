@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#012B31">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="259dp"
+        android:layout_height="234dp"
+        android:layout_margin="80dp"
+        android:background="#012B31"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img1"
+        android:contentDescription="@string/logo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:background="#00D4FAF2"
+        android:ems="10"
+        android:text="Choose Category"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:fontFamily="@font/coda"
+        android:textColor="#85D7FC"
+        android:gravity="center_horizontal" />
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="250dp"
+        android:layout_height="155dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        app:cardBackgroundColor="#000"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp">
+
+        <Button
+            android:id="@+id/toCustomer"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:background="#034F51"
+            android:ems="10"
+            android:text="Customer" />
+        <Button
+            android:id="@+id/toRenter"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:background="#F50E5701"
+            android:ems="10"
+            android:text="Renter" />
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</RelativeLayout >

@@ -1,0 +1,29 @@
+<resources>
+
+    <string name="app_name">FYD</string>
+    <string name="title_home">Customer</string>
+    <string name="title_notifications">Renter</string>
+    <string name="login_as_customer">Login as Customer</string>
+    <string name="customer">Customer</string>
+    <string name="renter">Renter</string>
+    <string name="login_as">Login as</string>
+    <string name="logo">LOGO</string>
+    <string name="new_user">New user?</string>
+    <string name="password">Password</string>
+    <string name="login_as_renter">Login as Renter</string>
+    <string name="username">Username</string>
+    <string name="new_user_sign_up">New user? sign up</string>
+    <string name="login">Login</string>
+    <string name="already_have_an_account">Already have an account</string>
+    <string name="create_new_account">Create new account</string>
+    <string name="todo">TODO</string>
+    <string name="rooms">Rooms</string>
+    <string name="place">Place</string>
+    <string name="owner">Owner</string>
+    <string name="sign_up">Sign up</string>
+    <string name="log_out">Log out</string>
+    <string name="do_you_want_to_logout">Do you want to Logout</string>
+    <string name="enter_e_mail_id">Enter E-mail Id</string>
+    <string name="enter_password">Enter Password</string>
+
+</resources>

@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#012B31">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="259dp"
+        android:layout_height="234dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="-20dp"
+        android:layout_marginEnd="85dp"
+        android:layout_marginRight="85dp"
+        android:layout_marginBottom="291dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img1"
+        android:contentDescription="@string/logo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:background="#00D4FAF2"
+        android:ems="10"
+        android:text="New Renter?"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textColor="#85D7FC"
+        android:fontFamily="@font/coda"
+        android:gravity="center_horizontal" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="450dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:padding="40dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:background="#01505E"
+                android:drawableStart="@drawable/ic_person_black_24dp"
+                android:drawableLeft="@drawable/ic_person_black_24dp"
+                android:ems="10"
+                android:hint="@string/enter_e_mail_id"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName"
+                android:padding="5dp"
+                android:textColor="#eee" />
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:background="#01505E"
+                android:drawableStart="@drawable/ic_lock_outline_black_24dp"
+                android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+                android:ems="10"
+                android:hint="@string/enter_password"
+                android:importantForAutofill="no"
+                android:inputType="textPassword"
+                android:padding="5dp"
+                android:textColor="#eee" />
+            <EditText
+                android:id="@+id/fullname"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:background="#01505E"
+                android:ems="10"
+                android:hint="Enter Full name"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName"
+                android:padding="5dp"
+                android:textColor="#eee" />
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:background="#01505E"
+                android:ems="10"
+                android:hint="Enter Profile name"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName"
+                android:padding="5dp"
+                android:textColor="#eee" />
+
+            <EditText
+                android:id="@+id/editText4"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:background="#01505E"
+                android:ems="10"
+                android:hint="Enter Address"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName"
+                android:padding="5dp"
+                android:textColor="#eee" />
+
+            <EditText
+                android:id="@+id/editText5"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:background="#01505E"
+                android:ems="10"
+                android:hint="Enter Mobile Number"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName"
+                android:padding="5dp"
+                android:textColor="#eee" />
+
+            <EditText
+                android:id="@+id/editText6"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:background="#01505E"
+                android:ems="10"
+                android:hint="Enter Place of property"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName"
+                android:padding="5dp"
+                android:textColor="#eee" />
+
+            <EditText
+                android:id="@+id/editText7"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:background="#01505E"
+                android:ems="10"
+                android:hint="Enter Property size in sqrft"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName"
+                android:padding="5dp"
+                android:textColor="#eee" />
+
+            <EditText
+                android:id="@+id/editText8"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:background="#01505E"
+                android:ems="10"
+                android:hint="Enter Number of bedrooms"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName"
+                android:padding="5dp"
+                android:textColor="#eee" />
+
+            <EditText
+                android:id="@+id/editText9"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:background="#01505E"
+                android:ems="10"
+                android:hint="Enter Number of bathrooms"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName"
+                android:padding="5dp"
+                android:textColor="#eee" />
+
+            <EditText
+                android:id="@+id/editText10"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:background="#01505E"
+                android:ems="10"
+                android:hint="Enter Rent per month"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName"
+                android:padding="5dp"
+                android:textColor="#eee" />
+
+            <EditText
+                android:id="@+id/editText11"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:background="#01505E"
+                android:ems="10"
+                android:hint="Other features"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName"
+                android:padding="5dp"
+                android:textColor="#eee" />
+
+            <EditText
+                android:id="@+id/editText12"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:background="#01505E"
+                android:ems="10"
+                android:hint="Other features"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName"
+                android:padding="5dp"
+                android:textColor="#eee" />
+
+            <EditText
+                android:id="@+id/editText13"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:background="#01505E"
+                android:ems="10"
+                android:hint="Other features"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName"
+                android:padding="5dp"
+                android:textColor="#eee" />
+            <androidx.cardview.widget.CardView
+                android:layout_width="114dp"
+                android:layout_height="30dp"
+                app:cardBackgroundColor="#54C1EB"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp">
+
+                <Button
+                    android:id="@+id/rregister"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#54C1EB"
+                    android:ems="10"
+                    android:layout_gravity="center"
+                    android:text="Sign up"/>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textview3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="620dp"
+        android:background="#00D4FAF2"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:text="Already have an account?"
+        android:textAlignment="center"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/sendlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="640dp"
+        android:background="#00D4FAF2"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textColor="#85D7FC"
+        android:textSize="14sp" />
+
+
+
+
+</RelativeLayout >
