@@ -7,8 +7,11 @@
 - Najiya<br><br>
 
 FindYourDorm is an android mobile application that helps to find locally available rental rooms and cottages for staying near Farook College (can be used in other places also)<br><br>
-**- Front end : Java**<br>
-**- Back end : Firebase**<br>
+- Front end : **Java**<br>
+- Back end : **Firebase**<br>
+
+Download Apk --> [**FYD**](https://github.com/pu-raihan/pu-docs/raw/main/FYD-v%203.0.apk).<br/>
+
 
 <!--
 <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
