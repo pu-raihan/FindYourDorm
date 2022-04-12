@@ -10,3 +10,7 @@ FindYourDorm is an android mobile application that helps to find locally availab
 **- Front end : Java**<br>
 **- Back end : Firebase**<br>
 
+```html
+<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="raihan-io" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://in.linkedin.com/in/raihan-io?trk=profile-badge">Muhammed Raihan P A</a></div>
+              
+```
