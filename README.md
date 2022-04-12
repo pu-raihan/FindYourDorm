@@ -10,8 +10,9 @@ FindYourDorm is an android mobile application that helps to find locally availab
 - Front end : **Java**<br>
 - Back end : **Firebase**<br>
 
-Download Apk --> [**FYD**](https://github.com/pu-raihan/FindYourDorm/raw/master/FYD-v%203.0.apk).<br/>
-
+Download Apk --> [**FYD-v 3.0.apk**](https://github.com/pu-raihan/FindYourDorm/raw/master/FYD-v%203.0.apk).<br/>
+- 11 MB
+- version 3.0
 
 <!--
 <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
